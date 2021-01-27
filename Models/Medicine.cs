@@ -19,5 +19,8 @@ namespace Pharma.Models
         [Column(TypeName = "decimal(6, 2)")]
         public decimal Price { get; set; }
 
+        [DataType(DataType.Date)]
+        public DateTime PublishingDate { get; set; }
+
     }
 }
